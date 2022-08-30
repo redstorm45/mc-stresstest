@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "mineflayer-pathfinder": "^1.6.1",
-    "mineflayer": "^3.6.0"
+    "mineflayer": "^4.4.0"
   },
   "description": "A stresstester for minecraft servers"
 }
