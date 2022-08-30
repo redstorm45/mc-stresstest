@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "This is a test!"
 echo "Trying to launch ${PLAYER_COUNT} bots"
 
 trap 'trap " " SIGTERM; kill 0; wait' SIGINT SIGTERM
