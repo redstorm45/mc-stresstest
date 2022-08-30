@@ -10,7 +10,7 @@ const bot = mineflayer.createBot({
 })
 
 const RANGE_GOAL = 256
-const TRAVEL_DIST = 1024^2;
+const TRAVEL_DIST = Math.pow(1024, 2);
 
 const TARGET_ANGLE = Math.random()*Math.PI*2.0;
 const TARGET_POSITION = {
